@@ -8,7 +8,9 @@ namespace BookShop.DataAccess.Repository.IRepository
     {
         ICategoryRepository Category { get; }
         IProductRepository Product { get; }
+        ICompanyRepository Company { get; }
         ICoverTypeRepository CoverType { get; }
+        IApplicationUserRepository ApplicationUser { get; }
         ISP_Call SP_Call { get; }
 
         void Save();
